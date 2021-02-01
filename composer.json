@@ -1,23 +1,19 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
+    "name": "efarsoft/efar-admin",
+    "description": "基于ThinkPHP6+ 开发的通用管理后台,适用于商城，CMS,CRM,OA,ERP...的二次开发",
     "type": "project",
     "keywords": [
         "framework",
-        "thinkphp",
-        "ORM"
+        "EfarAdmin",
+        "Admin"
     ],
-    "homepage": "http://thinkphp.cn/",
+    "homepage": "https://efarsoft.cn/",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        },
-        {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
-        }        
+            "name": "琴瑟琵琶",
+            "email": "405146868@qq.com"
+        }   
     ],
     "require": {
         "php": ">=7.1.0",

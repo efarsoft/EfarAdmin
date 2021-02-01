@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff40050eb98021dc9af4ba37b95f9047",
+    "content-hash": "75157e5f4425a86e6a7ff270a56fd951",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -783,16 +783,16 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.5.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "353f66d7555d8a90781f6f5e7091932f9a4250aa"
+                "reference": "3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/353f66d7555d8a90781f6f5e7091932f9a4250aa",
-                "reference": "353f66d7555d8a90781f6f5e7091932f9a4250aa",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3",
+                "reference": "3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -806,8 +806,9 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^0.12.36",
-                "phpunit/phpunit": "^8.5.8"
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "phpstan/phpstan": "^0.12.68",
+                "phpunit/phpunit": "^8.5.8 || ^9.3"
             },
             "type": "library",
             "autoload": {
@@ -828,7 +829,7 @@
             "description": "Mime-type detection for Flysystem",
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.5.1"
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.7.0"
             },
             "funding": [
                 {
@@ -840,7 +841,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-18T11:50:25+00:00"
+            "time": "2021-01-18T20:58:21+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1111,16 +1112,16 @@
         },
         {
             "name": "overtrue/easy-sms",
-            "version": "1.2.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/easy-sms.git",
-                "reference": "cbf093dcd89c1615f617ae5733bfee1e85298793"
+                "reference": "85040b891b9fcd20954c63889e10e7d26bf49ec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/easy-sms/zipball/cbf093dcd89c1615f617ae5733bfee1e85298793",
-                "reference": "cbf093dcd89c1615f617ae5733bfee1e85298793",
+                "url": "https://api.github.com/repos/overtrue/easy-sms/zipball/85040b891b9fcd20954c63889e10e7d26bf49ec9",
+                "reference": "85040b891b9fcd20954c63889e10e7d26bf49ec9",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1157,9 +1158,9 @@
             "description": "The easiest way to send short message.",
             "support": {
                 "issues": "https://github.com/overtrue/easy-sms/issues",
-                "source": "https://github.com/overtrue/easy-sms/tree/1.2.0"
+                "source": "https://github.com/overtrue/easy-sms/tree/1.3.1"
             },
-            "time": "2020-11-24T14:22:50+00:00"
+            "time": "2021-01-20T01:51:30+00:00"
         },
         {
             "name": "overtrue/socialite",
@@ -1230,16 +1231,16 @@
         },
         {
             "name": "overtrue/wechat",
-            "version": "4.3.5",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/w7corp/easywechat.git",
-                "reference": "19d60ef304bae897ef5b68d6bf1a116940b53423"
+                "reference": "20bdd3fe8056ee9297692caf53bd131be8079ee6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/w7corp/easywechat/zipball/19d60ef304bae897ef5b68d6bf1a116940b53423",
-                "reference": "19d60ef304bae897ef5b68d6bf1a116940b53423",
+                "url": "https://api.github.com/repos/w7corp/easywechat/zipball/20bdd3fe8056ee9297692caf53bd131be8079ee6",
+                "reference": "20bdd3fe8056ee9297692caf53bd131be8079ee6",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1301,9 +1302,23 @@
             ],
             "support": {
                 "issues": "https://github.com/w7corp/easywechat/issues",
-                "source": "https://github.com/w7corp/easywechat/tree/4.3.5"
+                "source": "https://github.com/w7corp/easywechat/tree/4.4.0"
             },
-            "time": "2020-12-23T06:55:46+00:00"
+            "funding": [
+                {
+                    "url": "https://www.easywechat.com/img/pay/wechat.jpg",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/overtrue",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/overtrue",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-12-30T06:39:40+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -3701,16 +3716,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v6.0.6",
+            "version": "v6.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "dd265d9e962da2c033a45190b839d5538770a760"
+                "reference": "db8fe22520a9660dd5e4c87e304034ac49e39270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/dd265d9e962da2c033a45190b839d5538770a760",
-                "reference": "dd265d9e962da2c033a45190b839d5538770a760",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/db8fe22520a9660dd5e4c87e304034ac49e39270",
+                "reference": "db8fe22520a9660dd5e4c87e304034ac49e39270",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3766,9 +3781,9 @@
             ],
             "support": {
                 "issues": "https://github.com/top-think/framework/issues",
-                "source": "https://github.com/top-think/framework/tree/v6.0.6"
+                "source": "https://github.com/top-think/framework/tree/v6.0.7"
             },
-            "time": "2021-01-10T15:35:54+00:00"
+            "time": "2021-01-25T14:48:29+00:00"
         },
         {
             "name": "topthink/think-captcha",
@@ -4117,16 +4132,16 @@
         },
         {
             "name": "workerman/gateway-worker",
-            "version": "v3.0.18",
+            "version": "v3.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/walkor/GatewayWorker.git",
-                "reference": "50d3a77deb7f7fb206d641ee0307ae1c41d5d41d"
+                "reference": "720cb0f23c3ae5f0143b3457901e177dd3d54387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/GatewayWorker/zipball/50d3a77deb7f7fb206d641ee0307ae1c41d5d41d",
-                "reference": "50d3a77deb7f7fb206d641ee0307ae1c41d5d41d",
+                "url": "https://api.github.com/repos/walkor/GatewayWorker/zipball/720cb0f23c3ae5f0143b3457901e177dd3d54387",
+                "reference": "720cb0f23c3ae5f0143b3457901e177dd3d54387",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4155,9 +4170,9 @@
             ],
             "support": {
                 "issues": "https://github.com/walkor/GatewayWorker/issues",
-                "source": "https://github.com/walkor/GatewayWorker/tree/v3.0.18"
+                "source": "https://github.com/walkor/GatewayWorker/tree/v3.0.19"
             },
-            "time": "2020-07-15T06:45:01+00:00"
+            "time": "2021-01-25T03:01:01+00:00"
         },
         {
             "name": "workerman/workerman",
